@@ -45,7 +45,7 @@ export class Todo {
 
     this.#block = document.querySelector('.task__list')
     this.#input = document.querySelector('.form__input')
-    this.#input = document.querySelector('.form__button')
+    this.#button = document.querySelector('.form__button')
     this.#button.onclick = this.#handleAdd
     this.#loadData()
     this.#render()
